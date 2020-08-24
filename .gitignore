@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+agp-spa/dist
+agp-spa/tmp
+agp-spa/out-tsc
+# Only exists if Bazel was run
+agp-spa/bazel-out
+
+# dependencies
+agp-spa/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+ agp-spa/.sass-cache
+agp-spa/connect.lock
+agp-spa/coverage
+agp-spa/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+agp-spa/typings
+
+# System Files
+.DS_Store
+Thumbs.db
