@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agp-spa"
+    }
+  },
+  "defaultProject": "agp-spa",
+  "cli": {
+    "analytics": false
+  }
 }

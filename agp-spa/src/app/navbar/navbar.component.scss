@@ -11,9 +11,10 @@ $standard-text-color: black;
     flex-direction: column;
     margin-bottom: 2rem;
     .smt-nav-header {
-        text-align: center;
+        //text-align: center;
         margin-top: 4rem;
         margin-bottom: 1rem;
+        margin-left: 7rem;
         span {
             color: $standard-text-color;
             font-size: $nav-header-font-size;

@@ -1,0 +1,20 @@
+@import "src/styles.scss";
+
+.agp-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .agp-home-card {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        background-color: $navbar-background;
+
+        border-bottom: 1px solid $navbar-border;
+        border-top: 1px solid $navbar-border;
+        border-left: 1px solid $navbar-border;
+        border-right: 1px solid $navbar-border;
+    }
+}
