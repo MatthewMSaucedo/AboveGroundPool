@@ -5,16 +5,33 @@
     flex-direction: column;
     align-items: center;
     .agp-home-card {
+        // PADDING
         padding-bottom: 2rem;
         padding-top: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
 
+        // COLORING
         background-color: $navbar-background;
-
         border-bottom: 1px solid $navbar-border;
         border-top: 1px solid $navbar-border;
         border-left: 1px solid $navbar-border;
         border-right: 1px solid $navbar-border;
+
+        // STRUCTURE
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .agp-home-card-title {
+            font-size: 1.8rem;
+            padding-bottom: .5rem;
+            color: $standard-text-color;
+        }
+
+        .agp-home-card-description {
+            font-size: 1.4rem;
+            padding-top: 1rem;
+        }
     }
 }
